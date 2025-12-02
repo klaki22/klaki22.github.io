@@ -129,26 +129,24 @@ img.left6{
     padding: 10px;
 }
 
-/* --- RESPONSYWNOŚĆ --- */
 
-/* wszystkie obrazki skalują się automatycznie */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* wrapper dopasowuje się do telefonu */
+
 #wrapper, #wrapper1, #wrapper3, #wrapper4 {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* responsywny YouTube */
+
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* proporcja 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
     margin: 20px 0;
 }
@@ -161,16 +159,16 @@ img {
     height: 100%;
 }
 
-/* na telefonach menu w jednej kolumnie, ale styl pozostaje taki sam */
+
 @media (max-width: 600px) {
     nav {
         display: flex;
-        flex-direction: column; /* kolumna na telefonie */
+        flex-direction: column; 
         gap: 0;
     }
 
     a.menu {
-        flex: 1 1 auto; /* każdy link dopasowuje się do szerokości ekranu */
+        flex: 1 1 auto; 
     }
 
     article p {
@@ -183,7 +181,7 @@ img {
         text-align: center;
     }
 
-    /* zdjęcia w artykułach nie floatują na telefonie */
+    
     img.left, img.left1, img.left2, img.left3, img.left4, img.left6, img.left7 {
         float: none;
         display: block;
