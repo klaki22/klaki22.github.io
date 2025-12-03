@@ -188,3 +188,17 @@ img {
         margin: 0 auto 20px auto;
     }
 }
+#formularz{
+    color: white;
+    text-align: left;
+}
+
+table, th, td{
+border: 2px solid black;
+color: white;
+border-collapse: collapse;
+}
+#linek{
+    font-size: 20px;
+    color: white;
+}
